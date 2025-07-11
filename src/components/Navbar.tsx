@@ -32,10 +32,9 @@ const Navbar = () => {
       {/* Mobile Dropdown */}
       {isOpen && (
         <div className="md:hidden w-full bg-white shadow-md px-4 pb-4">
-          <a href="#" className="block py-2 text-gray-600 hover:text-blue-500">Home</a>
-          <a href="#" className="block py-2 text-gray-600 hover:text-blue-500">About</a>
-          <a href="#" className="block py-2 text-gray-600 hover:text-blue-500">Services</a>
-          <a href="#" className="block py-2 text-gray-600 hover:text-blue-500">Contact</a>
+          <a href="/" className="block py-2 text-gray-600 hover:text-blue-500">Home</a>
+          <a href="/login" className="block py-2 text-gray-600 hover:text-blue-500">Login</a>
+          <a href="/signup" className="block py-2 text-gray-600 hover:text-blue-500">Sign Up</a>
         </div>
       )}
     </nav>
